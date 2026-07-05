@@ -358,6 +358,20 @@ dd {
   margin-top: 18px;
 }
 
+.cmt-notice {
+  padding: 28px clamp(20px, 5vw, 72px);
+  background: #eef1ed;
+  border-top: 1px solid var(--line);
+}
+
+.cmt-notice p {
+  max-width: 1100px;
+  margin: 0;
+  color: #4f5a62;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
